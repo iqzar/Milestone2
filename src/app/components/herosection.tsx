@@ -8,14 +8,14 @@ export default function HeroSection() {
         <main>
             <div className=' font-poppins md:mt-5 mt-5 ml-5 mr-8 md:ml-24 md:mr-24'>
         <div className=' md:mt-28'>
-          <h1 className='md:text-[100px] text-3xl font-pt'>WELCOME<span className='font-pt text-6xl'>.</span></h1>
+          <h1 className='md:text-[100px] text-5xl font-pt'>WELCOME<span className='font-pt text-6xl'>.</span></h1>
           <p className='text-xs mt-10 leading-loose h-2/4 md:w-3/4' >I am Iqra Khizar, a beginner front-end developer with a passion for creating websites using Next.js, Tailwind CSS, and TypeScript. I focus on building responsive and modern interfaces, always aiming for clean and efficient code. I love learning new technologies and applying them in projects to improve both functionality and design.</p>
           <p className='text-xs mt-5 leading-loose h-2/4 md:w-3/4' ><p>
   I am a creative at heart, with a love for DIY projects, calligraphy, and painting. These passions inspire my work, helping me bring a unique perspective to front-end development.
 </p>
 </p>
         
-        <div className='flex md:justify-between gap-3' >
+        <div className='flex md:justify-between gap-20' >
           <button className="md:ml-0 mb-6 mt-10 text-white hover:text-white md:text-sm text-xs bg-black md:h-8 md:w-24 h-6 w-20 border-2 border-green-200 hover:border-green-200 hover:bg-slate-900">
     <Link href='#projects'>Check work</Link>
 </button>

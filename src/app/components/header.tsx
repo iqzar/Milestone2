@@ -11,7 +11,7 @@ import {
 export default function Header(){
   return(
     <main className="flex justify-between mt-5">
-        <div className="flex ml-10">
+        <div className="flex ml-10 md:mr-0">
         <p className="text-sm pr-1 font-semibold text-green-300">iqra khizar</p>
         <p className="text-[15px] font-serif">|</p>
         <p className="text-[10px] pl-1 pt-1"> Front-end Developer</p>
@@ -28,10 +28,10 @@ export default function Header(){
                 
                 
                 <Sheet>
-                <SheetTrigger className="md:hidden"><MenuIcon /></SheetTrigger>
-                <SheetContent>
-                <ul className="">
-                <li className="flex flex-col">
+                <SheetTrigger className="md:hidden"><MenuIcon className="mr-5" /></SheetTrigger>
+                <SheetContent className="bg-white ml-5">
+                <ul className="bg-white ml-5">
+                <li className="flex flex-col font-poppins text-sm leading-loose">
                     <Link href={'/'}>Home</Link>
                     <Link href='/about'>About</Link>
                     <Link href='#projects'>Projects</Link>
