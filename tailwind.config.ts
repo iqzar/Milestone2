@@ -9,6 +9,7 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		
   		fontFamily: {
 			'pt': ["PT Serif", 'serif'],
   			poppins: ['Poppins', 'sans-serif'],
@@ -83,6 +84,9 @@ const config: Config = {
 		
   		},
   		colors: {
+			beige : '#fffae5',
+			coffee : '#FAEDCD',
+			brown : '#D4A373',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
