@@ -23,7 +23,7 @@ export default function Projects() {
   </div>
 
   {/* Projects container */}
-  <div className="flex flex-col md:flex-row md:space-x-12 md:justify-center items-center md:pt-5 md:pb-10 space-y-5 md:space-y-0">
+  <div className="flex flex-col md:flex-row md:space-x-12 pb-5 md:justify-center items-center md:pt-5 md:pb-10 space-y-5 md:space-y-0">
     
     {/* First Project */}
     <motion.div
