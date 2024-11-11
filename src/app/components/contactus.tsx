@@ -76,7 +76,7 @@ transition={{ duration: 0.6 }}>
         
         <h2 className= "animate-slideInRight font-semibold md:ml-0 ml-4 mt-5 text-3xl md:text-left text-center tracking-wide">Lets talk about<br/>your project</h2>
 
-        <button className="md:ml-0 ml-60 mb-6 mt-10 bg-transparent text-black hover:text-white text-sm font-semibold h-8 w-24 border border-black hover:border-green-200 hover:bg-slate-900">
+        <button className="md:ml-0 ml-44 mb-6 mt-10 bg-transparent text-black hover:text-white text-sm font-semibold h-8 w-24 border border-black hover:border-green-200 hover:bg-slate-900">
     <Link href='/contact'>Contact Us</Link>
 </button>
 
