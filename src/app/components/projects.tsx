@@ -36,7 +36,7 @@ export default function Projects() {
     >
       <Image src={w3} alt="Pakistani Khaany" width={270} height={220} />
       <h3 className="text-lg font-semibold font-poppins mt-3">Pakistani Khaany</h3>
-      <p className="text-xs mt-2 font-thin">
+      <p className="text-sm mt-2 font-thin">
         A multi-page Pakistani food recipe website template built with Next.js and styled using Tailwind CSS offers a fast, responsive, smooth and dynamic user experience.
       </p>
       <Link href="https://milestone2-assignment-khany.vercel.app/" target="_blank" rel="noopener noreferrer">
@@ -55,7 +55,7 @@ export default function Projects() {
     >
       <Image src={w1} alt="Figma To Web" width={270} height={220} />
       <h3 className="text-lg font-semibold font-poppins mt-3">Figma To Web</h3>
-      <p className="text-xs mt-2 font-thin">
+      <p className="text-sm mt-2 font-thin">
         Developed a pixel-perfect landing page that mirrors the Figma design, ensuring a seamless user experience and visual consistency. Utilized Next.js and Tailwind CSS.
       </p>
       <Link href="https://class-assignment-2-ecomerce.vercel.app/?vercelToolbarCode=RYMdeB6Oe5fhu24" target="_blank" rel="noopener noreferrer">
@@ -74,7 +74,7 @@ export default function Projects() {
     >
       <Image src={w2} alt="SAT Homemade Food" width={270} height={220} />
       <h3 className="text-lg font-semibold font-poppins mt-3">SAT Homemade Food</h3>
-      <p className="text-xs mt-2 font-thin">
+      <p className="text-sm mt-2 font-thin">
         Created a static, multi-page website for Sat Homemade Food, a fast-food brand, highlighting the menu, special offers, and customer reviews. It was designed for a responsive experience.
       </p>
       <Link href="https://sat-homemade-food.vercel.app/?vercelToolbarCode=4h2F_gRkoysVdWw" target="_blank" rel="noopener noreferrer">

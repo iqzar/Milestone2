@@ -42,7 +42,7 @@ export default function AboutMe() {
                 />
                 <div className="md:ml-10 mt-6 md:mt-0">
                     <h2 className="text-4xl md:text-5xl">HELLO!</h2>
-                    <p className="text-xs leading-loose mt-4 font-poppins w-full md:w-260 md:pr-10 pr-10 md:pl-0 pl-10" >
+                    <p className="text-sm leading-loose mt-4 font-poppins w-full md:w-260 md:pr-10 pr-10 md:pl-0 pl-10" >
                         I am an enthusiastic learner currently pursuing an IT course, building on my strong foundation in commerce, where I completed my master s degree. My diverse background equips me with a unique perspective on technology and business, enabling me to blend analytical thinking with creative problem-solving. Beyond my academic pursuits, I am passionate about creativity and enjoy making DIY projects that reflect my innovative spirit. Additionally, I have cultivated skills in calligraphy and painting, which allow me to express myself artistically and appreciate the beauty in detail and design. I thrive in environments that challenge me to grow and push the boundaries of my creativity while integrating technology into my projects.
                     </p>
                 </div>

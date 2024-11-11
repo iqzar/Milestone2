@@ -34,7 +34,7 @@ const ScrollToTop: React.FC = () => {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-2 right-6 bg-black text-white md:p-1.5 rounded-full borde border-2 border-green-200 shadow-lg transition duration-300"
+          className="fixed bottom-2 md:right-6 right-2 bg-black text-white p-1.5 rounded-full borde border-2 border-green-200 shadow-lg transition duration-300"
         >
           {/* Upward Arrow Icon */}
           <svg

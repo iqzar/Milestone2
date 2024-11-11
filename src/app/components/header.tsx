@@ -21,7 +21,7 @@ export default function Header(){
                     <Link className="hover:border-b-4 hover:border-green-200" href={"/about"}>about,</Link>
                     <Link className="hover:border-b-4 hover:border-green-200" href="#skills">skills,</Link>
                     <Link className="hover:border-b-4 hover:border-green-200" href="#projects">work,</Link>
-                    <Link className="hover:border-b-4 hover:border-green-200" href="/contactus">contact</Link>
+                    <Link className="hover:border-b-4 hover:border-green-200" href="/contact">contact</Link>
                 </li>
                 
         </ul>

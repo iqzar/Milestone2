@@ -21,53 +21,53 @@ import { motion } from 'framer-motion';
   {/* Services section */}
   <div className="flex flex-wrap justify-center gap-5 md:gap-10 mt-10 md:mx-28">
     <motion.div
-      className="border border-green-200 rounded-xl p-4 md:w-2/5 w-72"
+      className="border border-green-200  hover:bg-green-200 hover:text-black rounded-xl p-4 md:w-2/5 w-72"
       initial="hidden"
       whileInView="visible"
       variants={boxVariants}
       transition={{ duration: 0.3, delay: 0.1 }}
     >
-      <h2 className="text-sm font-chakra font-semibold">Strategy and Planning</h2>
-      <p className="font-poppins text-xs text-left mt-2 leading-relaxed">
+      <h2 className="text-sm md:text-lg font-chakra font-semibold">Strategy and Planning</h2>
+      <p className="font-poppins md:text-sm text-[16px] text-left mt-2 leading-relaxed">
         I develop clear and actionable strategies to ensure each project is aligned with client goals, setting a strong foundation for design and development.
       </p>
     </motion.div>
 
     <motion.div
-      className="border border-green-200 rounded-xl p-4 md:w-2/5 w-72"
+      className="border border-green-200 hover:bg-green-200 hover:text-black rounded-xl p-4 md:w-2/5 w-72"
       initial="hidden"
       whileInView="visible"
       variants={boxVariants}
       transition={{ duration: 0.3, delay: 0.2 }}
     >
-      <h2 className="text-sm font-chakra font-semibold">Designing on Canva</h2>
-      <p className="font-poppins text-xs text-left mt-2 leading-relaxed">
+      <h2 className="text-sm md:text-lg font-chakra font-semibold">Designing on Canva</h2>
+      <p className="font-poppins md:text-sm text-[16px] text-left mt-2 leading-relaxed">
         I create eye-catching CVs, social media posts, and ads on Canva, blending visual appeal with brand consistency to make a lasting impression.
       </p>
     </motion.div>
 
     <motion.div
-      className="border border-black text-black hover:bg-slate-900 bg-green-200 rounded-xl p-4 md:w-2/5 w-72"
+      className="border border-green-200 hover:bg-green-200 hover:text-black rounded-xl p-4 md:w-2/5 w-72"
       initial="hidden"
       whileInView="visible"
       variants={boxVariants}
       transition={{ duration: 0.3, delay: 0.3 }}
     >
-      <h2 className="text-sm font-chakra font-semibold">Web Design</h2>
-      <p className="font-poppins text-xs text-left mt-2 leading-relaxed">
+      <h2 className="text-sm md:text-lg font-chakra font-semibold">Web Design</h2>
+      <p className="font-poppins md:text-sm text-[16px] text-left mt-2 leading-relaxed">
         Specializing in front-end development, I design responsive and user-friendly websites that provide seamless experiences across devices.
       </p>
     </motion.div>
 
     <motion.div
-      className="border border-green-200 rounded-xl p-4 md:w-2/5 w-72"
+      className="border border-green-200 hover:bg-green-200 hover:text-black rounded-xl p-4 md:w-2/5 w-72"
       initial="hidden"
       whileInView="visible"
       variants={boxVariants}
       transition={{ duration: 0.3, delay: 0.4 }}
     >
-      <h2 className="text-sm font-chakra font-semibold">User Research</h2>
-      <p className="font-poppins text-xs text-left mt-2 leading-relaxed">
+      <h2 className="text-sm md:text-lg font-chakra font-semibold">User Research</h2>
+      <p className="font-poppins md:text-sm text-[16px] text-left mt-2 leading-relaxed">
         I conduct research to understand user needs, ensuring that design decisions are backed by insights for improved user satisfaction and engagement.
       </p>
     </motion.div>

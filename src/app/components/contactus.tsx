@@ -21,7 +21,7 @@ export default function Contact(){
 
 
             
-<div className= " md:ml-10 md:mr-10 flex flex-col md:flex-row items-center md:justify-center gap-6 md:gap-20 mt-12 mb-24 ml-6 mr-6  text-center">
+<div className= " md:ml-10 md:mr-10 flex flex-col md:flex-row items-center md:justify-center gap-6 md:gap-14 mt-12 mb-24 ml-6 mr-6  text-center">
 <motion.div
 className="w-full md:w-72 h-auto"
 initial="hidden"
@@ -30,8 +30,8 @@ viewport={{ once: true }}
 variants={cardVariants}
 transition={{ duration: 0.6 }}>
         <FontAwesomeIcon className="h-8 w-8 text-green-200 mb-3 mt-2 ml-5" icon={faUser} />
-        <h3 className="text-sm font-semibold font-poppins">User-Centric Design Expertise</h3>
-        <p className="text-xs font-poppins mt-3">
+        <h3 className="text-lg font-semibold font-poppins">User-Centric Design</h3>
+        <p className="text-sm font-poppins mt-3">
             I focus on creating responsive websites that prioritize user experience. With expertise in Next.js and design tools.
         </p>
         </motion.div>
@@ -45,8 +45,8 @@ variants={cardVariants}
 transition={{ duration: 0.6 }}>
 
         <FontAwesomeIcon className="h-8 w-8 text-green-200 mb-3 mt-2 ml-5" icon={faPalette} />
-        <h3 className="text-sm font-semibold font-poppins">Creative with Technical Precision</h3>
-        <p className="text-xs font-poppins mt-3">
+        <h3 className="text-lg font-semibold font-poppins">Creative</h3>
+        <p className="text-sm font-poppins mt-3">
             My blend of creativity and technical skills allows me to design functional and visually appealing websites.
         </p>                
         </motion.div>
@@ -61,8 +61,8 @@ viewport={{ once: true }}
 variants={cardVariants}
 transition={{ duration: 0.6 }}>
         <FontAwesomeIcon className="h-8 w-8 text-green-200 mb-3 mt-2 ml-5" icon={faLightbulb} />
-        <h3 className="text-sm font-semibold font-poppins">Continuously Learning</h3>
-        <p className="text-xs font-poppins mt-3">
+        <h3 className="text-lg font-semibold font-poppins">Continuous Learning</h3>
+        <p className="text-sm font-poppins mt-3">
             I embrace adaptability and continuous learning in technology. By exploring new tools and frameworks.
         </p>
         </motion.div>
@@ -76,7 +76,7 @@ transition={{ duration: 0.6 }}>
         
         <h2 className= "animate-slideInRight font-semibold md:ml-0 ml-4 mt-5 text-3xl md:text-left text-center tracking-wide">Lets talk about<br/>your project</h2>
 
-        <button className="md:ml-0 ml-32 mb-6 mt-10 bg-transparent text-black hover:text-white text-sm font-semibold h-8 w-24 border border-black hover:border-green-200 hover:bg-slate-900">
+        <button className="md:ml-0 ml-72 mb-6 mt-10 bg-transparent text-black hover:text-white text-sm font-semibold h-8 w-24 border border-black hover:border-green-200 hover:bg-slate-900">
     <Link href='/contact'>Contact Us</Link>
 </button>
 

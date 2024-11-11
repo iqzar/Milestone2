@@ -7,10 +7,10 @@ export default function HeroSection() {
     return(
         <main>
             <div className=' font-poppins md:mt-5 mt-5 ml-5 mr-8 md:ml-24'>
-        <div className=' md:mt-28'>
+        <div className=' md:mt-16 mt-10'>
           <h1 className='md:text-[100px] text-5xl font-pt'>WELCOME<span className='font-pt text-6xl'>.</span></h1>
-          <p className='text-xs mt-10 leading-loose h-2/4 md:w-3/4' >I am Iqra Khizar, a beginner front-end developer with a passion for creating websites using Next.js, Tailwind CSS, and TypeScript. I focus on building responsive and modern interfaces, always aiming for clean and efficient code. I love learning new technologies and applying them in projects to improve both functionality and design.</p>
-          <p className='text-xs mt-5 leading-loose h-2/4 md:w-3/4' >
+          <p className='text-sm mt-10 leading-loose h-2/4 md:w-3/4' >I am Iqra Khizar, a beginner front-end developer with a passion for creating websites using Next.js, Tailwind CSS, and TypeScript. I focus on building responsive and modern interfaces, always aiming for clean and efficient code. I love learning new technologies and applying them in projects to improve both functionality and design.</p>
+          <p className='text-sm mt-5 leading-loose h-2/4 md:w-3/4' >
   I am a creative at heart, with a love for DIY projects, calligraphy, and painting. These passions inspire my work, helping me bring a unique perspective to front-end development.
 </p>
 
