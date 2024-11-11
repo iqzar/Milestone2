@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub ,faDiscord,faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
-
+import ScrollToTop from './scroll';
 
 export default function Footer(){
     return(
@@ -31,6 +31,7 @@ export default function Footer(){
         <FontAwesomeIcon className="w-4 h-4 text-white" icon={faEnvelope} />
       </a>
     </div>
+    <ScrollToTop/>
   </div>
 </div>
 
